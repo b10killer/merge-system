@@ -311,6 +311,9 @@ class loginConvert
             case 'ipb2':
                 $return = $this->authenticate_ipb2($password);
                 break;
+            case 'ipb3':
+                $return = $this->authenticate_ipb2($password);
+                break;
             case 'smf11':
                 $return = $this->authenticate_smf11($password);
                 break;
